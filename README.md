@@ -34,6 +34,7 @@ To deploy and run this project:
    - NumPy
    - SQLAlchemy
    - Flask
+   - pprint
    - datetime
 3. Open [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb) on Jupyter Notebook for data analysis.
 4. To access the API, launch the Flask application
@@ -48,7 +49,7 @@ To deploy and run this project:
 The challenge analyses the following datasets:
 - **Precipitation Data**: Trends over the past 12 months.
 - **Station Data**: Active stations and their temperature observations.
-- **Temperature Observations**: Minimum, maximum, and average temperatures for the most active station.
+- **Temperature Observations (TOBS) Data**: Minimum, maximum, and average temperatures for the most active station.
 
 ## 5. Flask API
 1. `/`
