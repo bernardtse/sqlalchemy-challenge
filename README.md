@@ -1,4 +1,5 @@
-# sqlalchemy-challenge - SurfsUp Climate Analysis and Flask API
+# sqlalchemy-challenge
+SurfsUp: Climate Analysis and Flask API
 
 ## Contents
 1. [Overview](#1-overview)  
