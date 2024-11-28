@@ -20,10 +20,10 @@ This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a 
 - **Main Folder**: [`SurfsUp`](SurfsUp)
   - Jupyter Notebook: [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb)
   - Python Application: [`SurfsUp/app.py`](SurfsUp/app.py)
-  - **[`SurfsUp/Resources`](SurfsUp/Resources)**:
-    - `SurfsUp/Resources/hawaii_measurements.csv`
-    - `SurfsUp/Resources/hawaii_stations.csv`
-    - `SurfsUp/Resources/hawaii.sqlite`
+  - **[`SurfsUp/resources`](SurfsUp/resources)**:
+    - `SurfsUp/resources/hawaii_measurements.csv`
+    - `SurfsUp/resources/hawaii_stations.csv`
+    - `SurfsUp/resources/hawaii.sqlite`
 
 
 ## 3. Deployment
@@ -52,6 +52,8 @@ The challenge analyses the following datasets:
 - **Station Data**: Active stations and their temperature observations.
 - **Temperature Observations (TOBS) Data**: Minimum, maximum, and average temperatures for the most active station.
 
+![SQLAlchemy](images/sqlalchemy.png)
+
 ## 5. Flask API
 1. `/`
 - Start at the homepage.
@@ -68,6 +70,8 @@ The challenge analyses the following datasets:
 - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 - For a specified start, calculate `TMIN`, `TAVG`, and `TMAX` for all the dates greater than or equal to the start date.
 - For a specified start date and end date, calculate `TMIN`, `TAVG`, and `TMAX` for the dates from the start date to the end date, inclusive.
+
+![Flask](images/flask.png)
 
 ## 6. References
 Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897–910.  
