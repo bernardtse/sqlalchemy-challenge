@@ -39,7 +39,7 @@ To deploy and run this project:
    - datetime
 3. Open [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb) on Jupyter Notebook for data analysis.
 4. To access the API, launch the Flask application
-   - Navigate to the `SurfsUp` directory and run the following command on the Terminal:
+   - Navigate to the `SurfsUp` directory and run the following command in the Terminal:
    ```
    python app.py
    ```
