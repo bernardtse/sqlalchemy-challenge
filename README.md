@@ -17,10 +17,10 @@ This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a 
 ## 2. Repository
 
 ### Structure
-- **Main Folder**: [`SurfsUp`](SurfsUp)
+- **Main Folder**: [`SurfsUp/`](SurfsUp)
   - Jupyter Notebook: [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb)
   - Python Application: [`SurfsUp/app.py`](SurfsUp/app.py)
-  - **[`SurfsUp/resources`](SurfsUp/resources)**:
+  - **[`SurfsUp/resources/`](SurfsUp/resources)**:
     - `SurfsUp/resources/hawaii_measurements.csv`
     - `SurfsUp/resources/hawaii_stations.csv`
     - `SurfsUp/resources/hawaii.sqlite`
