@@ -27,7 +27,7 @@ This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a 
 
 
 ## 3. Deployment
-To deploy and run this project:
+To deploy and run this challenge:
 1. Clone the repository and navigate to the `SurfsUp` directory.
 2. Ensure the following Python libraries are installed:
    - Matplotlib
