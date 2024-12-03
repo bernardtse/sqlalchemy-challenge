@@ -17,18 +17,18 @@ This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a 
 ## 2. Repository
 
 ### Structure
-- **Main Folder**: [`SurfsUp/`](SurfsUp)
-  - Jupyter Notebook: [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb)
-  - Python Application: [`SurfsUp/app.py`](SurfsUp/app.py)
-  - **[`SurfsUp/resources/`](SurfsUp/resources)**:
-    - `SurfsUp/resources/hawaii_measurements.csv`
-    - `SurfsUp/resources/hawaii_stations.csv`
-    - `SurfsUp/resources/hawaii.sqlite`
+- Main Folder: [`surfs_up/`](surfs_up)
+  - Jupyter Notebook: [`surfs_up/climate.ipynb`](surfs_up/climate.ipynb)
+  - Python Application: [`surfs_up/app.py`](surfs_up/app.py)
+  - [`surfs_up/resources/`](surfs_up/resources):
+    - `surfs_up/resources/hawaii_measurements.csv`
+    - `surfs_up/resources/hawaii_stations.csv`
+    - `surfs_up/resources/hawaii.sqlite`
 
 
 ## 3. Deployment
 To deploy and run this challenge:
-1. Clone the repository and navigate to the `SurfsUp` directory.
+1. Clone the repository and navigate to the `surfs_up/` directory.
 2. Ensure the following Python libraries are installed:
    - Matplotlib
    - Pandas
@@ -37,9 +37,10 @@ To deploy and run this challenge:
    - Flask
    - pprint
    - datetime
-3. Open [`SurfsUp/climate.ipynb`](SurfsUp/climate.ipynb) on Jupyter Notebook for data analysis.
+3. Open [`surfs_up/climate.ipynb`](surfs_up/climate.ipynb) on Jupyter Notebook for data analysis.
 4. To access the API, launch the Flask application
-   - Navigate to the `SurfsUp` directory and run the following command in the Terminal:
+   - Navigate to the `surfs_up/` directory and run the following command in the Terminal:
+
    ```
    python app.py
    ```
@@ -74,5 +75,4 @@ The challenge analyses the following datasets:
 ![Flask](images/flask.png)
 
 ## 6. References
-Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897–910.  
-[View the article](https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml)
+Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897–910. [View the article](https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml)
