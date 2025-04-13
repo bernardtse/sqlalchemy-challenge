@@ -11,7 +11,7 @@ SurfsUp: Climate Analysis and Flask API
 
 
 ## 1. Overview
-This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a holiday trip. It uses Python, SQLAlchemy, Pandas, Matplotlib, and Flask to explore historical weather data, perform precipitation and station analyses, and provide a Flask API for dynamic data retrieval. The analysis includes precipitation trends, station activities, and temperature observations, alongside API endpoints for data access.
+This challenge analyses climate data for Honolulu, Hawaii, to aid in planning a holiday trip. It uses Python, SQLAlchemy, pandas, Matplotlib, and Flask to explore historical weather data, perform precipitation and station analyses, and provide a Flask API for dynamic data retrieval. The analysis includes precipitation trends, station activities, and temperature observations, alongside API endpoints for data access.
 
 
 ## 2. Repository
@@ -31,7 +31,7 @@ To deploy and run this challenge:
 1. Clone the repository and navigate to the `surfs_up/` directory.
 2. Ensure the following Python libraries are installed:
    - Matplotlib
-   - Pandas
+   - pandas
    - NumPy
    - SQLAlchemy
    - Flask
